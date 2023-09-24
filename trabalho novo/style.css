@@ -1,0 +1,140 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.nav-button
+{
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #fafe42;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.nav-button i
+{
+    color: black;
+}
+
+.overlay
+{
+    width: 0;
+    height: 100%;
+    /*background-color: rgb(0,0,0);*/
+    background-color: #fafe42;
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay-content
+{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.overlay a
+{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 30px;
+    transition: 0.3s;
+    padding-left: 15px;
+    padding: 15px;
+}
+
+.overlay a:hover, .overlay a:focus
+{
+    color: #f1f1f1;
+}
+
+.overlay .closebtn
+{
+    top: 10px;
+    right: 45px;
+    font-size: 60px;
+}
+
+header
+{
+    background-color: #fafe42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#banner
+{
+    width: 10px
+
+}
+
+#botão a
+{
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: #fafe42;
+    color: black;
+    padding: 10px;
+    align-items: center;
+}
+
+.class-container
+{
+    position: relative;
+}
+
+.class-container h2
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #FFF;
+}
+
+.class-container img
+{
+    opacity: 0.5;
+}
+
+footer
+{
+    background-color: #fafe42;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+p
+{
+    padding: 5px;
+}
+
+@media scream and (max-height: 450px)
+{
+    .overlay a 
+    { 
+        font-size: 20px;
+    }
+
+    .overlay, .closebtn 
+    
+    {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
